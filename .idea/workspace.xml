@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="43a52076-cc67-41cf-8390-8fa1b3ce174b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/doctrine-symfony-the-database-course-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/doctrine-symfony-the-database-course-3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/question/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/homepage.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/question/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +132,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
       <path value="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-time-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hW3nz6IbrP9yZYhVwaHWxtUUl4" />
@@ -157,7 +165,8 @@
       <updated>1600113192866</updated>
       <workItem from="1600113193434" duration="8912000" />
       <workItem from="1600283406117" duration="4134000" />
-      <workItem from="1600290501797" duration="599000" />
+      <workItem from="1600290501797" duration="641000" />
+      <workItem from="1600343702788" duration="4121000" />
     </task>
     <servers />
   </component>
@@ -177,5 +186,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="478" y="177" key="SettingsEditor/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1600285745069" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600352734323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1600352734323" />
   </component>
 </project>

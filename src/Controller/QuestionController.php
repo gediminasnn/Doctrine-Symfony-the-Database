@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Question;
+use App\Repository\QuestionRepository;
 use App\Service\MarkdownHelper;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;
@@ -56,9 +57,14 @@ EOF
     /**
      * @Route("/", name="app_homepage")
      */
-    public function homepage()
+    public function homepage(QuestionRepository $repository)
     {
-        return $this->render('question/homepage.html.twig');
+//        $repository = $entityManager->getRepository(Question::class);
+        /** @var \App\Repository\QuestionRepository $repository*/
+        $questions = $repository->findAllAskedOrderedByNewest();
+        return $this->render('question/homepage.html.twig', [
+            'questions' => $questions,
+        ]);
     }
 
     /**
