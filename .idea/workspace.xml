@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Question.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/question/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/homepage.html.twig" afterDir="false" />
@@ -134,6 +135,12 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-time-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/zenstruck/foundry" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hW3nz6IbrP9yZYhVwaHWxtUUl4" />
@@ -166,7 +173,11 @@
       <workItem from="1600113193434" duration="8912000" />
       <workItem from="1600283406117" duration="4134000" />
       <workItem from="1600290501797" duration="641000" />
-      <workItem from="1600343702788" duration="4121000" />
+      <workItem from="1600343702788" duration="4562000" />
+      <workItem from="1600359277936" duration="3542000" />
+      <workItem from="1600709249913" duration="2024000" />
+      <workItem from="1600882638571" duration="217000" />
+      <workItem from="1600959063027" duration="3617000" />
     </task>
     <servers />
   </component>
@@ -178,6 +189,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="399" key="#Composer/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1600278268522" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600961843917">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1600961843917" />
     <state x="420" y="289" key="FileChooserDialogImpl" timestamp="1600284583769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
